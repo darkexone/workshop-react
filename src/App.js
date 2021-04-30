@@ -1,7 +1,9 @@
+import './App.scss';
+
 const App = () => {
   return (
-    <div>
-      <header>
+    <div class="container-fluid">
+      <header id="app-header">
         <p>
           Siema polaczki! XDxDDDDDDD
         </p>
