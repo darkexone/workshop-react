@@ -1,0 +1,11 @@
+@import "../Constans.scss";
+
+.jobsList{
+    background-color:$jobs-background;
+    color:$jobs-color;
+    text-align: center;
+    & h1{
+        color: $jobs-h1-color;
+    }
+    
+}

@@ -1,0 +1,18 @@
+@import "../Constans.scss";
+
+.products{
+    color:$text-color;
+    text-align: center;
+
+    &-description{
+        display: block;
+    }
+
+    button{
+        margin-left:2px;
+        background-color: $manu-color;
+        color:blue;
+        border: 2px solid $login-border-color;
+        border-radius: 4px;
+    }
+}

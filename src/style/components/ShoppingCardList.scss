@@ -1,0 +1,32 @@
+@import "../Constans.scss";
+
+.shoppingCardList{
+
+    text-align: center;    
+    margin-top:10px;
+    &-list{
+        display: block;
+        
+        
+        button{
+            margin-top: 0px !important;
+            margin-left: auto;
+            margin-right: auto;
+            background-color: $manu-color;
+            color:blue;
+            border: 2px solid $login-border-color;
+            border-radius: 4px;
+        }
+    }
+
+    button{
+        margin-top: 20px;
+        margin-left: auto;
+        margin-right: auto;
+        background-color: $manu-color;
+        color:blue;
+        border: 2px solid $login-border-color;
+        border-radius: 4px;
+    }
+    
+}

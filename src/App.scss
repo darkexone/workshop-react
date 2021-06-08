@@ -3,8 +3,10 @@
 $font-stack:    Helvetica, sans-serif;
 $primary-color: #333;
 
+
 #root {
     //font: 100% $font-stack;
+    background-color: #EEEEEE;
     #app-header {
         color: $primary-color;
     }
