@@ -1,0 +1,28 @@
+@import "../Constans.scss";
+$input-margin: 2px;
+
+.login{
+    color:$text-color;
+    margin-left: 40%;
+    
+    &-email{
+        input{
+            margin-left:$input-margin+2px;
+        }
+    }
+    &-password{
+
+        input{
+            margin-left:$input-margin;
+        }
+        button{
+            margin-left:2px;
+            background-color: $manu-color;
+            color:blue;
+            border: 2px solid $login-border-color;
+            border-radius: 4px;
+        }
+    }
+
+   
+}

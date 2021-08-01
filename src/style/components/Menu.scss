@@ -1,0 +1,48 @@
+@import "../Constans.scss";
+$logo-size: 40px;
+$logo-padding-vertical: 29px;
+$font-size: 15px;
+
+$manu-padding-vertical: 5px;
+$manu-padding-horizont: 20px;
+
+.header{
+    font-size: $font-size;
+    background-color: $manu-background;
+    padding-top: 15px;
+
+    &-logo{
+        background-color: $logo-color;
+
+        //bez "!important" stylowanie jak przy "& a{}"
+        padding-top:$logo-padding-vertical !important;
+        padding-bottom: $logo-padding-vertical !important;
+        padding-right: $logo-size !important;
+        padding-left: $logo-size !important;
+
+        border: none !important;
+
+        & img{
+            width:$logo-size;
+            height:$logo-size;
+        }
+    }
+
+
+    & a{
+        color: $manu-color;
+        padding-left: $manu-padding-horizont;
+        padding-right: $manu-padding-horizont;
+        padding-top: $manu-padding-vertical;
+        padding-bottom: $manu-padding-vertical;
+        border-right:1px solid $manu-color;   
+    }
+
+    & button{
+        background-color: $manu-background;
+        padding-left: $manu-padding-horizont;
+        padding-right: $manu-padding-horizont;
+        color: $manu-color;
+        border:none;
+    }
+}

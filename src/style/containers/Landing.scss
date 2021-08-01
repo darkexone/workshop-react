@@ -1,0 +1,8 @@
+@import "../Constans.scss";
+
+.landing{
+    text-align: center;
+    & p{
+        color: $text-color;
+    }
+}
